@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The First Step: Mental Health</title>
+    <meta charset="utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	  <!-- link the webpage's stylesheet -->
+	  <link rel="stylesheet" href="style.css" />
+  
+	  <!-- link the webpage's JavaScript file -->
+	  <script src="script.js" defer></script>
+
+  <!-- google fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="magicscroll/magicscroll.css"/>
+  <script src="magicscroll/magicscroll.js"></script>
+
+  <style>
+    /* Your existing styles here */
+
+    /* Initial margin */
+    .mh {
+      margin-bottom: 100px;
+    }
+
+    /* Apply margin to all .mh elements when one is being hovered over */
+    .mh-hovered {
+      margin-bottom: 300px;
+    }
+  </style>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      // Get all elements with class .mh
+      const mhElements = document.querySelectorAll(".mh");
+
+      // Add event listeners to each .mh element
+      mhElements.forEach((element) => {
+        element.addEventListener("mouseenter", handleMouseEnter);
+        element.addEventListener("mouseleave", handleMouseLeave);
+      });
+
+      function handleMouseEnter() {
+        // Add a class to all .mh elements when one is hovered
+        mhElements.forEach((element) => {
+          element.classList.add("mh-hovered");
+        });
+      }
+
+      function handleMouseLeave() {
+        // Remove the class when the mouse leaves any .mh element
+        mhElements.forEach((element) => {
+          element.classList.remove("mh-hovered");
+        });
+      }
+    });
+  </script>
+</head>
+
+<body>
+  <header>
+    <seciton class="top-nav">
+      <div class="logo">
+        THE FIRST STEP 
+      </div>
+      <input id="menu-toggle" type="checkbox" />
+      <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+      </label>
+    <ul class="menu">
+      
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      
+      <li>
+          <div class="dropdown">
+          <a href="mh.html"><button class="dropbtn">Mental Health</button></a>
+            <div class="dropbtn-content">
+              <a href="adhd.html">ADHD</a>
+              <a href="anx.html">Anxiety Disorder</a>
+              <a href="bipolar.html">Bipolar Disorder</a>
+              <a href="bpd.html">Borderline Personality Disorder</a>
+              <a href="depression.html">Depression</a>
+              <a href="ed.html">Eating Disorders</a>
+              <a href="ocd.html">OCD</a>
+              <a href="ptsd.html">PTSD</a>
+            </div>
+        </div>
+      </li>
+
+      <li>
+        <a href="help.html">Get Help</a>
+      </li>
+
+      <li>
+        <a href="media.html">Media</a>
+      </li>
+      
+      <li>
+        <div class="dropdown">
+          <a href="resources.html"><button class="dropbtn">Resources</button></a>
+            <div class="dropbtn-content">
+              <a href="act.html">Activities</a>
+              <a href="app.html">Apps</a>
+              <a href="articles.html">Articles</a>
+              <a href="book.html">Books</a>
+              <a href="hotline.html">Hotlines</a>
+          
+              <a href="video.html">Videos</a>
+            </div>
+        </div>
+      </li>
+
+      <li>
+        <a href="involve.html">Get Involved</a>
+      </li>
+
+      <li>
+        <a href="about.html">About Us</a>
+      </li>
+    </ul>
+  </section>
+    
+  </header>
+<!-- write content here -->
+
+  <!-- wide screen -->
+
+ 
+  
+  <div class="page-headers">
+  <h1>Mental Health</h1>
+  </div>
+
+  <div class="mh-info">
+
+  <div class="mh">
+    <h2>What is Mental Health?</h2>
+    <div class="hidden-text">
+      Mental health refers to a person's overall psychological well-being. It includes the ability to manage one's emotions, thoughts, and behaviors, and to handle the stresses and challenges of daily life. Good mental health is essential for overall health and happiness, and it can affect everything from relationships and work to physical health and quality of life.
+    </div>
+  
+  </div>
+
+  <div class="mh">
+    <h2>What is Mental Illness?</h2>
+    <div class="hidden-text">
+      Mental health conditions, also known as mental illnesses or disorders, are conditions that can affect a person's mood, thinking, and behavior. Some common mental health conditions include depression, anxiety, bipolar disorder, schizophrenia, and eating disorders. These conditions can range from mild to severe, and they can be managed with treatment, including therapy, medication, and lifestyle changes.
+    </div>
+    </div>
+
+
+  <div class="mh">
+    <h2>Important Note</h2>
+    <div class="hidden-text">
+      It is important to prioritize mental health and seek help if you are struggling with your mental health. It is also important to recognize that mental health can vary from person to person and can change over time. What is healthy for one person may not be healthy for another, and it is important to find what works best for you.
+    </div>
+    </div>
+  </div>
+
+<!-- small screen -->
+  <div class="mh-info2">
+    
+  <div class="mh2">
+    <h2>What is Mental Health?</h2>
+    <div class="hidden-text2">
+      Mental health refers to a person's overall psychological well-being. It includes the ability to manage one's emotions, thoughts, and behaviors, and to handle the stresses and challenges of daily life. Good mental health is essential for overall health and happiness, and it can affect everything from relationships and work to physical health and quality of life.
+  </div>
+    </div>
+
+    
+  <div class="mh2">
+    <h2>What is Mental Illness?</h2>
+    <div class="hidden-text2">
+      Mental health conditions, also known as mental illnesses or disorders, are conditions that can affect a person's mood, thinking, and behavior. Some common mental health conditions include depression, anxiety, bipolar disorder, schizophrenia, and eating disorders. These conditions can range from mild to severe, and they can be managed with treatment, including therapy, medication, and lifestyle changes.
+  </div>
+    </div>
+
+
+  <div class="mh2">
+    <h2>Important Note</h2>
+    <div class="hidden-text2">
+      It is important to prioritize mental health and seek help if you are struggling with your mental health. It is also important to recognize that mental health can vary from person to person and can change over time. What is healthy for one person may not be healthy for another, and it is important to find what works best for you.
+    </div>
+  </div>
+    
+  </div>
+  </div>
+
+  <div class="mhlink-container">
+    <a href="adhd.html">
+    <div class="mhlink">
+  <div class="mh-inner">
+    <img src="mh/adhd.png">
+  </div>
+  <p>ADHD</p>
+  </div>
+    </a>
+
+    <a href="anx.html">
+      <div class="mhlink">
+    <div class="mh-inner">
+      <img src="mh/anxiety.png">
+    </div>
+    <p>Anxiety</p>
+    </div>
+      </a>
+
+    <a href="bipolar.html">
+      <div class="mhlink">
+    <div class="mh-inner">
+      <img src="mh/bipolar.png">
+    </div>
+    <p>Bipolar Disorder</p>
+    </div>
+      </a>
+  </div>
+
+  <div class="mhlink-container">
+    <a href="bpd.html">
+    <div class="mhlink">
+  <div class="mh-inner">
+    <img src="mh/bpd.png">
+  </div>
+  <p>Borderline Personality Disorder</p>
+  </div>
+    </a>
+
+    <a href="depression.html">
+      <div class="mhlink">
+    <div class="mh-inner">
+      <img src="mh/depression.png">
+    </div>
+    <p>Depression</p>
+    </div>
+      </a>
+
+    <a href="ed.html">
+      <div class="mhlink">
+    <div class="mh-inner">
+      <img src="mh/ed.png">
+    </div>
+    <p>Eating Disorders</p>
+    </div>
+      </a>
+  </div>
+
+  <div class="mhlink-container">
+    <a href="ocd.html">
+    <div class="mhlink">
+  <div class="mh-inner">
+    <img src="mh/ocd.png">
+  </div>
+  <p>OCD</p>
+  </div>
+    </a>
+
+    <a href="ptsd.html">
+      <div class="mhlink">
+    <div class="mh-inner">
+      <img src="mh/ptsd.png">
+    </div>
+    <p>PTSD</p>
+    </div>
+      </a>
+  </div>
+
+
+
+ 
+</body>
+
+</html>
