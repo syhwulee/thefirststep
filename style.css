@@ -1345,3 +1345,18 @@
  .link-text{
    text-align: left;
  }
+
+.sticky-button {
+    position: fixed;
+    bottom: 24px; /* Adjust the distance from the bottom as needed */
+    left: 12px; /* Adjust the distance from the right as needed */
+    background-color: #A0A484;
+    color: white;
+    padding: 56px 178px;
+    border-radius: 5px;
+}
+
+.sticky-button a {
+    color: inherit;
+    text-decoration: none;
+}
