@@ -1352,8 +1352,8 @@
     left: 12px; /* Adjust the distance from the right as needed */
     background-color: #A0A484;
     color: white;
-    padding: 56px 178px;
-    border-radius: 5px;
+    padding: 5px 17px;
+    border-radius: 17px;
 }
 
 .sticky-button a {
