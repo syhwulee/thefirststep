@@ -141,7 +141,7 @@
    color: white;
    height: 50px;
    padding: 1em;
- z-index: 2;
+ z-index: 21;
    
  }
  .menu {
@@ -150,7 +150,7 @@
    list-style-type: none;
    margin: 0;
    padding: 0;
-   z-index: 2;
+   z-index: 21;
    
  }
  
