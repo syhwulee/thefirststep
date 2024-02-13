@@ -1346,32 +1346,29 @@
    text-align: left;
  }
 
- .ctl-btn {
-   display: inline-block;
-     padding: 10px 20px;
-/*    width: auto;
-       height: auto; */
-     font-size: 20px;
-       background-color: #A0A484;
-       color: #fff;
-       text-align: center;
-       line-height: 50px;
-       margin: 10px;
-       cursor: pointer;
-       transition: transform 0.3s ease;
-     border: none;
-     border-radius: 50%;
-   }
-/* 
-.button {
-  display: inline-block;
-  
-  background-color: #4CAF50;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-} */
+.ctl-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 35px;
+    background-color: #A0A484;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border: none;
+    border-radius: 50%;
+    text-decoration: none; /* Added */
+    width: auto; /* Added */
+    height: auto; /* Added */
+    text-align: center; /* Added */
+}
+
+.ctl-btn:hover {
+    background-color: #85886E;
+}
+
+.ctl-btn:active {
+    transform: scale(0.95);
+}
