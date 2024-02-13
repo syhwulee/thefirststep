@@ -1345,3 +1345,26 @@
  .link-text{
    text-align: left;
  }
+
+//
+ .ctl {
+   display: inline-block;
+   width: auto;
+       height: auto;
+       background-color: #A0A484;
+       color: #fff;
+       text-align: center;
+       line-height: 50px;
+       margin: 10px;
+       cursor: pointer;
+       transition: transform 0.3s ease;
+     border-radius: 50%;
+ 
+   }
+ .rsc-holder1{
+   margin: 20px;
+   display: flex;
+   align-content: center;
+   justify-content: space-evenly;
+   text-align: center;
+ }
