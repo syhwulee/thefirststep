@@ -1347,10 +1347,12 @@
  }
 
 //
- .ctl {
+ .ctl-btn {
    display: inline-block;
-   width: auto;
-       height: auto;
+     padding: 10px 20px;
+/*    width: auto;
+       height: auto; */
+     font-size: 20px;
        background-color: #A0A484;
        color: #fff;
        text-align: center;
@@ -1358,13 +1360,19 @@
        margin: 10px;
        cursor: pointer;
        transition: transform 0.3s ease;
+     border: none;
      border-radius: 50%;
- 
    }
-/*  .ctl-holder{
-   margin: 20px;
-   display: flex;
-   align-content: center;
-   justify-content: space-evenly;
-   text-align: center;
- } */
+/* 
+.button {
+  display: inline-block;
+  
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+} */
