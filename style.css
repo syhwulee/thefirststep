@@ -1353,6 +1353,7 @@
 
 #ctl-btn {
     background-color: #A0A484;
+    border: 1px #A0A484;
      font-size: 20px;
   color: white;
   padding-top: 10px;
