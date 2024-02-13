@@ -1363,5 +1363,6 @@
 }
 
 .ctl-btn:hover {
-    background-color: #85886E;
+    background-color: #7f826b;
+    color: white;
 }
