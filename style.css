@@ -1346,22 +1346,21 @@
    text-align: left;
  }
 
-.ctl{
-    right: 12px;
-    bottom: 24px;
-}
-
 #ctl-btn {
     background-color: #A0A484;
     border: 1px #A0A484;
-     font-size: 20px;
+     font-size: 25px;
   color: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 25px;
   cursor: pointer;
+
+    position: relative;
+    right: 12px;
+    bottom: 24px;
 }
 
 .ctl-btn:hover {
