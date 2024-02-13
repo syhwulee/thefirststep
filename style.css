@@ -1358,7 +1358,7 @@
     cursor: pointer;
     transition: transform 0.3s ease;
     border: none;
-    border-radius: 50%;
+    border-radius: 5px;
     text-decoration: none; /* Added */
     width: auto; /* Added */
     height: auto; /* Added */
