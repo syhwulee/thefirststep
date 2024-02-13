@@ -1353,8 +1353,8 @@
     background-color: #A0A484;
     color: #fff;
     text-align: center;
-    line-height: 50px;
-    margin: 10px;
+/*     line-height: 50px; */
+/*     margin: 10px; */
     cursor: pointer;
     transition: transform 0.3s ease;
     border: none;
@@ -1367,8 +1367,4 @@
 
 .ctl-btn:hover {
     background-color: #85886E;
-}
-
-.ctl-btn:active {
-    transform: scale(0.95);
 }
