@@ -1347,6 +1347,8 @@
  }
 
 .ctl{
+    right: 12px;
+    bottom: 24px;
 }
 
 #ctl-btn {
