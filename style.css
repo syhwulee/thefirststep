@@ -1346,23 +1346,19 @@
    text-align: left;
  }
 
-.ctl-btn {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 25px;
+.ctl{
+}
+
+#ctl-btn {
     background-color: #A0A484;
-    color: #fff;
-    text-align: center;
-/*     line-height: 50px; */
-/*     margin: 10px; */
-    cursor: pointer;
-/*     transition: transform 0.3s ease; */
-    border: none;
-/*     border-radius: 5px; */
-    text-decoration: none; /* Added */
-    width: auto; /* Added */
-    height: auto; /* Added */
-    text-align: center; /* Added */
+     font-size: 20px;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
+  border-radius: 12px;
+  cursor: pointer;
 }
 
 .ctl-btn:hover {
