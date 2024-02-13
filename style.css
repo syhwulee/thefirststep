@@ -1355,9 +1355,9 @@
   color: white;
   padding-top: 15px;
   padding-bottom: 15px;
-  padding-left: 2%;
-  padding-right: 2%;
-  border-radius: 50%;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 16px;
   cursor: pointer;
 }
 
