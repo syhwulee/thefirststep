@@ -22,6 +22,16 @@
     background: url(assets/vine.png); /* Adjust the path to your vine image */
     background-repeat: repeat-y;
 }
+
+.vine-border1 {
+    position: fixed;
+    top: 25px;
+    right: 50px;
+/*     width: 100vw; /* 100% of viewport width */ */
+    height: auto; /* 100% of viewport height */
+    background: url(assets/vine.png); /* Adjust the path to your vine image */
+    background-repeat: repeat-y;
+}
  
  /* background image/animation */
  .background {
