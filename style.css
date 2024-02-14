@@ -17,10 +17,9 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
-    width: 100%;
-    background: url('assets/vine.png') repeat-y; /* Adjust the path to your vine image */
-    pointer-events: none; /* Make sure the vine border doesn't interfere with mouse events */
+    width: 100vw; /* 100% of viewport width */
+    height: 100vh; /* 100% of viewport height */
+    background: url('assets/vine.png') repeat; /* Adjust the path to your vine image */
 }
  
  /* background image/animation */
