@@ -45,11 +45,11 @@ function flipCard(card) {
     dots[slideIndex-1].className += " active";
   }
 
-window.addEventListener('scroll', function() {
-    var scrollTop = window.scrollY;
-    var vineBorder = document.querySelector('.vine-border');
-    vineBorder.style.backgroundPositionY = -scrollTop + 'px';
-});
+// window.addEventListener('scroll', function() {
+//     var scrollTop = window.scrollY;
+//     var vineBorder = document.querySelector('.vine-border');
+//     vineBorder.style.backgroundPositionY = -scrollTop + 'px';
+// });
   
   
   
