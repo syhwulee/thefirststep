@@ -18,8 +18,8 @@
     top: 0;
     left: 0;
     height: 100%;
+    width: 100%;
     background: url('assets/vine.png') repeat; /* Adjust the path to your vine image */
-    z-index: 0; /* Ensure the vine border is behind the content */
     pointer-events: none; /* Make sure the vine border doesn't interfere with mouse events */
 }
  
