@@ -44,7 +44,12 @@ function flipCard(card) {
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
   }
-  
+
+window.addEventListener('scroll', function() {
+    var scrollTop = window.scrollY;
+    var vineBorder = document.querySelector('.vine-border');
+    vineBorder.style.backgroundPositionY = -scrollTop + 'px';
+});
   
   
   
