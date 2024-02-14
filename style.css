@@ -1369,6 +1369,7 @@
 
 #gh-btn{
     z-index: 21;
+    width: 169px;
   position: fixed;
   bottom: 20px;
   left: 20px;
