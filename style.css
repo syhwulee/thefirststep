@@ -1366,24 +1366,3 @@
     background-color: #7f826b;
     color: white;
 }
-
-#gh-btn{
-    z-index: 21;
-    width: 169px;
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
-  padding: 15px 15px;
-  font-size: 20px;
-  background-color: #A0A484;
-  color: white;
-  border: 1px #A0A484;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  border-radius: 100px;
-  cursor: pointer;
-  transition: transform 0.3s, opacity 0.3s;
-}
-#gh-btn:hover {
-    background-color: #7f826b;
-    color: white;
-}
